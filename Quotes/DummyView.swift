@@ -9,6 +9,6 @@
 import UIKit
 
 /// View will be displayed on the screen if user have not chosen of any symbols.
-class DummyView: UIView {
+public class DummyView: UIView {
 
 }

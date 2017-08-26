@@ -10,15 +10,15 @@ import Foundation
 import Starscream
 
 /// Class for communication between server and client. Implements SocketProtocol.
-class Socket: SocketProtocol {
+public class Socket: SocketProtocol {
     
     fileprivate let socket: WebSocket
     
-    var onEvent: ((_ data: [String: Any]) -> Void)?
+    public var onEvent: ((_ data: [String: Any]) -> Void)?
     
-    var onConnect: (() -> Void)?
+    public var onConnect: (() -> Void)?
     
-    var onDisconnect: (() -> Void)?
+    public var onDisconnect: (() -> Void)?
     
     
     deinit {
@@ -40,7 +40,7 @@ class Socket: SocketProtocol {
                                                name: NSNotification.Name.UIApplicationDidEnterBackground, object: nil)
     }
     
-    func sendRequest(request: String) {
+    public func sendRequest(request: String) {
         
         debugPrint("request: " + request)
         

@@ -9,17 +9,17 @@
 import Foundation
 import ObjectMapper
 
-/// Describes a type of response data from server
-struct Response: Mappable {
+/// Describes a type of response data from server.
+public struct Response: Mappable {
     
     /// Array of Tick elements will be preseneted on the screen
-    var ticks = [Tick]()
+    public var ticks = [Tick]()
     
-    init?(map: Map) {
+    public init?(map: Map) {
         
     }
     
-    mutating func mapping(map: Map) {
+    mutating public func mapping(map: Map) {
         
         ticks <- map["ticks"]
         

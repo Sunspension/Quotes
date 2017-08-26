@@ -74,7 +74,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Quotes" id="inU-Qw-s1K">
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="had-Zs-97n">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="had-Zs-97n">
                             <connections>
                                 <segue destination="Z4g-AL-T3I" kind="presentation" identifier="symbols" id="Ml5-d0-W6K"/>
                             </connections>
@@ -98,11 +98,11 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3Zc-Lp-rZM" id="QG7-ua-Tkj">
-                                    <rect key="frame" x="0.0" y="0.0" width="336" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="335" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Gnh-7V-g7U">
-                                            <rect key="frame" x="15" y="0.0" width="321" height="43.5"/>
+                                            <rect key="frame" x="16" y="0.0" width="319" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -118,7 +118,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Symbols" id="cZf-Qi-ra0">
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="done" id="ULS-K5-n5Q">
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="ULS-K5-n5Q">
                             <connections>
                                 <action selector="done:" destination="4rV-qp-mGU" id="UDz-xf-1ua"/>
                             </connections>

@@ -9,12 +9,13 @@
 import Foundation
 
 /// Provides the server API to comunicate with.
-struct ServerAPI {
+public struct ServerAPI {
     
     fileprivate var socket: SocketProtocol
     
-    
-    init(socket: SocketProtocol) {
+    /// Creates a `ServerAPI` instance from the specified parameter.
+    /// - Parameter socket: The `SocketProtocol` implementer instance.
+    public init(socket: SocketProtocol) {
         
         self.socket = socket
         
@@ -41,7 +42,9 @@ struct ServerAPI {
     }
     
     /// Sends the predefined commands to the server.
-    func sendCommand(command: SocketCommand, symbols: [Symbol]) {
+    /// - Parameter command: The server command will be executed.
+    /// - Parameter symbols: The array of symbols will be work with.
+    public func sendCommand(command: SocketCommand, symbols: [Symbol]) {
         
         var request = command.toString
         request += symbols.map({ $0.rawValue.uppercased() }).joined(separator: ",")

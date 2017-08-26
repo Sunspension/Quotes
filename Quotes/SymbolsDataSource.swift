@@ -44,7 +44,7 @@ class SymbolsDataSource {
     }
     
     /// Optional callback that notify about the data source changes
-    var onDataSourceChanged: (() -> Void)?
+    public var onDataSourceChanged: (() -> Void)?
     
     
     deinit {
@@ -75,7 +75,7 @@ class SymbolsDataSource {
     
     /// Removes a given symbol from data source by index.
     /// - Parameter index: The index of deleting symbol.
-    func removeSymbol(at index: Int) {
+    public func removeSymbol(at index: Int) {
         
         let symbol = items[index].symbol
         items.remove(at: index)
@@ -86,7 +86,7 @@ class SymbolsDataSource {
     /// Changes index of a symbol in data source by using startIndex and endIndex parameters.
     /// - Parameter startIndex: The original index of a symbol.
     /// - Parameter endIndex: The final index of a symbol.
-    func moveSymbol(from startIndex: Int, to endIndex: Int) {
+    public func moveSymbol(from startIndex: Int, to endIndex: Int) {
         
         let item = items[startIndex]
         items.remove(at: startIndex)
@@ -95,7 +95,7 @@ class SymbolsDataSource {
     
     /// Updates data source by using a given symbols.
     /// - Parameter symbols: Array of symbols user have chosen. These symbols will be presented on the screen.
-    func updateSymbols(_ symbols: [Symbol]) {
+    public func updateSymbols(_ symbols: [Symbol]) {
         
         var newSet = Set<Tick>()
         

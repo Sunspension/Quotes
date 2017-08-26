@@ -9,7 +9,7 @@
 import Foundation
 
 /// Describes the predefined symbols.
-enum Symbol: String {
+public enum Symbol: String {
     
     case undefined, eurusd, eurgbp, usdjpy, gbpusd, usdchf, usdcad, audusd, eurjpy, eurchf
     

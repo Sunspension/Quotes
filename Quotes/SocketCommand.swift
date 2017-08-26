@@ -9,7 +9,7 @@
 import Foundation
 
 /// Describes enumeration of commands to comunicate with the server.
-enum SocketCommand {
+public enum SocketCommand {
     
     case subscribe, unsubscribe
     

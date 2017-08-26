@@ -10,29 +10,29 @@ import Foundation
 import ObjectMapper
 
 /// Describes a type of data using for payload between server and client.
-class Tick: NSObject, Mappable, NSCoding {
+public class Tick: NSObject, Mappable, NSCoding {
     
     /// Symbol is a pair of two currencies. For example EUR/USD.
-    var symbol = Symbol.undefined
+    public var symbol = Symbol.undefined
     
     /// Is an offer made by an investor.
-    var bid = ""
+    public var bid = ""
     
     /// Is the price a seller is willing to accept.
-    var ask = ""
+    public var ask = ""
     
     /// Is the difference between yields.
-    var spread = ""
+    public var spread = ""
     
     /// Optional callback shows that item has new data.
-    var onItemChanged: ((_ item: Tick) -> Void)?
+    public var onItemChanged: ((_ item: Tick) -> Void)?
     
-    override var hash: Int {
+    override public var hash: Int {
         
         return symbol.rawValue.hash ^ 344
     }
     
-    override func isEqual(_ object: Any?) -> Bool {
+    override public func isEqual(_ object: Any?) -> Bool {
         
         if let other = object as? Tick {
             
@@ -48,7 +48,7 @@ class Tick: NSObject, Mappable, NSCoding {
     
     // MARK: - NSCoder protocol implementation
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         
         symbol = Symbol(rawValue: aDecoder.decodeObject(forKey: "symbol") as! String)!
         bid = aDecoder.decodeObject(forKey: "bid") as! String
@@ -56,7 +56,7 @@ class Tick: NSObject, Mappable, NSCoding {
         spread = aDecoder.decodeObject(forKey: "spread") as! String
     }
     
-    func encode(with aCoder: NSCoder) {
+    public func encode(with aCoder: NSCoder) {
         
         aCoder.encode(symbol.rawValue, forKey: "symbol")
         aCoder.encode(bid, forKey: "bid")
@@ -66,12 +66,12 @@ class Tick: NSObject, Mappable, NSCoding {
     
     // MARK: - Mappable protocol implementation
     
-    required convenience init?(map: Map) {
+    required convenience public init?(map: Map) {
         
         self.init()
     }
     
-    func mapping(map: Map) {
+    public func mapping(map: Map) {
         
         symbol <- (map["s"], TransformOf<Symbol, String>(fromJSON: { Symbol(rawValue: $0!.lowercased()) },
                                                          toJSON: { $0!.rawValue.uppercased() }))
@@ -82,7 +82,7 @@ class Tick: NSObject, Mappable, NSCoding {
     
     /// Copies data from the updated tick.
     /// - Parameter other: The new updated tick that holds new data about the current symbol.
-    func copyData(from other: Tick) {
+    public func copyData(from other: Tick) {
         
         self.bid = other.bid
         self.ask = other.ask

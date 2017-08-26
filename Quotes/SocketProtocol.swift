@@ -9,7 +9,7 @@
 import Foundation
 
 /// Describes WebSocket protocol
-protocol SocketProtocol {
+public protocol SocketProtocol {
     
     /// Optional callback fires when received a payload from the server.
     /// - Parameter data: Presents the data a given from the server after subscribe.

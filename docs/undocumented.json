@@ -1,0 +1,166 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/rewire/Projects/Quotes/Quotes/Response.swift",
+      "line": 18,
+      "symbol": "Response.init(map:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rewire/Projects/Quotes/Quotes/Response.swift",
+      "line": 22,
+      "symbol": "Response.mapping(map:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rewire/Projects/Quotes/Quotes/SocketCommand.swift",
+      "line": 14,
+      "symbol": "SocketCommand.subscribe",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rewire/Projects/Quotes/Quotes/SocketCommand.swift",
+      "line": 14,
+      "symbol": "SocketCommand.unsubscribe",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rewire/Projects/Quotes/Quotes/Symbol.swift",
+      "line": 14,
+      "symbol": "Symbol.audusd",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rewire/Projects/Quotes/Quotes/Symbol.swift",
+      "line": 14,
+      "symbol": "Symbol.eurchf",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rewire/Projects/Quotes/Quotes/Symbol.swift",
+      "line": 14,
+      "symbol": "Symbol.eurgbp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rewire/Projects/Quotes/Quotes/Symbol.swift",
+      "line": 14,
+      "symbol": "Symbol.eurjpy",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rewire/Projects/Quotes/Quotes/Symbol.swift",
+      "line": 14,
+      "symbol": "Symbol.eurusd",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rewire/Projects/Quotes/Quotes/Symbol.swift",
+      "line": 14,
+      "symbol": "Symbol.gbpusd",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rewire/Projects/Quotes/Quotes/Symbol.swift",
+      "line": 14,
+      "symbol": "Symbol.undefined",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rewire/Projects/Quotes/Quotes/Symbol.swift",
+      "line": 14,
+      "symbol": "Symbol.usdcad",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rewire/Projects/Quotes/Quotes/Symbol.swift",
+      "line": 14,
+      "symbol": "Symbol.usdchf",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rewire/Projects/Quotes/Quotes/Symbol.swift",
+      "line": 14,
+      "symbol": "Symbol.usdjpy",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rewire/Projects/Quotes/Quotes/TableViewCell.swift",
+      "line": 11,
+      "symbol": "TypeEnum",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rewire/Projects/Quotes/Quotes/TableViewCell.swift",
+      "line": 13,
+      "symbol": "TypeEnum.header",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rewire/Projects/Quotes/Quotes/TableViewCell.swift",
+      "line": 13,
+      "symbol": "TypeEnum.row",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rewire/Projects/Quotes/Quotes/Tick.swift",
+      "line": 30,
+      "symbol": "Tick.hash",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rewire/Projects/Quotes/Quotes/Tick.swift",
+      "line": 35,
+      "symbol": "Tick.isEqual(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rewire/Projects/Quotes/Quotes/Tick.swift",
+      "line": 51,
+      "symbol": "Tick.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rewire/Projects/Quotes/Quotes/Tick.swift",
+      "line": 59,
+      "symbol": "Tick.encode(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rewire/Projects/Quotes/Quotes/Tick.swift",
+      "line": 69,
+      "symbol": "Tick.init(map:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rewire/Projects/Quotes/Quotes/Tick.swift",
+      "line": 74,
+      "symbol": "Tick.mapping(map:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/rewire/Projects/Quotes"
+}

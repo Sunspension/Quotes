@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum TypeEnum {
+public enum TypeEnum {
     
     case header, row
 }
@@ -38,7 +38,7 @@ class TableViewCell: UITableViewCell {
     
     /// Helps to setup colors and text fonts for labels
     /// - Parameter type: Presents the enumeration of skins types.
-    func setup(for type: TypeEnum) {
+    public func setup(for type: TypeEnum) {
         
         switch type {
             
